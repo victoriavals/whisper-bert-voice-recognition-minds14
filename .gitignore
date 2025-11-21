@@ -205,3 +205,56 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Machine Learning / AI Models & Training
+# Ignore trained models, checkpoints, and large datasets
+*.pt
+*.pth
+*.h5
+*.pb
+*.onnx
+*.pkl
+*.pickle
+*.joblib
+*.safetensors
+checkpoint-*/
+whisper-small-*/
+models/
+checkpoints/
+runs/
+wandb/
+tensorboard/
+logs/
+
+# Datasets and data files
+data/
+datasets/
+*.csv
+*.json
+*.jsonl
+*.parquet
+*.arrow
+*.feather
+*.hdf5
+*.npy
+*.npz
+
+# Audio files
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+*.aac
+
+# Cache and temporary files
+.cache/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# HuggingFace cache
+.huggingface/
+transformers_cache/
